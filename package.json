@@ -1,0 +1,31 @@
+{
+  "name": "servio-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-connect-proxy": "^0.2.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-s3-sync": "^0.4.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}
