@@ -1,3 +1,4 @@
 # Servio-Proxy
 
-Render all four components on proxy server
+Proxy server to combine all components
+
